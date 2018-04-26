@@ -98,7 +98,7 @@ Follow the Deployment steps through Step #4. Then:
 
 Follow the deployment steps as outlined above through Step #5, installing your NPM modules. The difference will be in how you start your deployed server:
 
-- *DO#*`nohup node start &` // where 'start' is the name of your script. You won't use your development script because nodemon is a tool for the development environment, not production
+- *DO#*`nohup npm run start &` // where 'start' is the name of your script. You won't use your development script because nodemon is a tool for the development environment, not production
 
 
 ### For a web app that uses MongoDB, Mongoose, and dotenv:
